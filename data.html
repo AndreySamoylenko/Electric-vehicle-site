@@ -43,8 +43,8 @@
         <p>
             <input type="checkbox" name="Oy" id="max_power"><label for="max_power">Максимальная мощность</label><br>
             <input type="checkbox" name="Oy" id="min_power"><label for="min_power">Минимальная мощность</label><br>
+            <input type="checkbox" name="Oy" id="max_price"><label for="max_price">Средняя мощность</label><br>
             <input type="checkbox" name="Oy" id="evs_count"><label for="evs_count">Количество моделей</label><br>
-            <input type="checkbox" name="Oy" id="max_price"><label for="max_price">Максимальная цена</label><br>
         </p>
 
         <button type="button">Построить</button>
@@ -64,11 +64,14 @@
 
             <label for="country_filter">Страна: </label><input type="text" id="country_filter"><br><br>
 
-            <label for="year_filter_from">Год от: </label><input type="number" id="year_filter_from" min="1970" max="2030">
+            <label for="year_filter_from">Год от: </label><input type="number" id="year_filter_from" min="1970"
+                                                                 max="2030">
             <label for="year_filter_to"> до: </label><input type="number" id="year_filter_to" min="1970" max="2030"><br><br>
 
-            <label for="power_filter_from">Мощность от: </label><input type="number" id="power_filter_from" min="0" max="1000000">
-            <label for="power_filter_to"> до: </label><input type="number" id="power_filter_to" min="0" max="1000000"><br><br>
+            <label for="power_filter_from">Мощность от: </label><input type="number" id="power_filter_from" min="0"
+                                                                       max="1000000">
+            <label for="power_filter_to"> до: </label><input type="number" id="power_filter_to" min="0"
+                                                             max="1000000"><br><br>
 
         </p>
         <button type="button">Найти</button>
@@ -82,41 +85,41 @@
     <summary>Сортировка</summary>
     <form id="sorting">
         <p>
-            <label for="1st_sort">Первый уровень: </label>
-            <select id="1st_sort">
-                <option>Нет</option>
-                <option>Название</option>
-                <option>Тип</option>
-                <option>Год</option>
-                <option>Мощность</option>
-                <option>Цена</option>
+            <label for="first_sort">Первый уровень: </label>
+            <select id="first_sort">
+                <option value="None">Нет</option>
+                <option value="Name">Название</option>
+                <option value="Type">Тип</option>
+                <option value="Year">Год</option>
+                <option value="Power">Мощность</option>
+                <option value="Price">Цена</option>
             </select>
-            <label for="1st_inverse">по убыванию? </label>
-            <input type="checkbox" id="1st_inverse"> <br><br>
+            <label for="first_inverse">по убыванию? </label>
+            <input type="checkbox" id="first_inverse"> <br><br>
 
-            <label for="2nd_sort">Второй уровень: </label>
-            <select id="2nd_sort">
-                <option>Нет</option>
-                <option>Название</option>
-                <option>Тип</option>
-                <option>Год</option>
-                <option>Мощность</option>
-                <option>Цена</option>
+            <label for="second_sort">Второй уровень: </label>
+            <select id="second_sort">
+                <option value="None">Нет</option>
+                <option value="Name">Название</option>
+                <option value="Type">Тип</option>
+                <option value="Year">Год</option>
+                <option value="Power">Мощность</option>
+                <option value="Price">Цена</option>
             </select>
-            <label for="2nd_inverse">по убыванию? </label>
-            <input type="checkbox" id="2nd_inverse"> <br><br>
+            <label for="second_inverse">по убыванию? </label>
+            <input type="checkbox" id="second_inverse"> <br><br>
 
-            <label for="3rd_sort">Третий уровень: </label>
-            <select id="3rd_sort">
-                <option>Нет</option>
-                <option>Название</option>
-                <option>Тип</option>
-                <option>Год</option>
-                <option>Мощность</option>
-                <option>Цена</option>
+            <label for="third_sort">Третий уровень: </label>
+            <select id="third_sort">
+                <option value="None">Нет</option>
+                <option value="Name">Название</option>
+                <option value="Type">Тип</option>
+                <option value="Year">Год</option>
+                <option value="Power">Мощность</option>
+                <option value="Price">Цена</option>
             </select>
-            <label for="3rd_inverse">по убыванию? </label>
-            <input type="checkbox" id="3rd_inverse"> <br>
+            <label for="third_inverse">по убыванию? </label>
+            <input type="checkbox" id="third_inverse"> <br>
         </p>
         <button type="button">Сортировать</button>
         <br>
