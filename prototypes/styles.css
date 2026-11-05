@@ -1,0 +1,13 @@
+.big {
+    float: left;
+    width: 66.5%;
+    height: 245px;
+    background: #bcaaa4;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background-image: url("../pictures/Candela_C-8.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
