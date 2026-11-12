@@ -12,6 +12,7 @@ body {
     height: 38px;
 }
 .tabs li {
+    display: block;
     float: left;
     padding: 10px 16px;
     height: 18px;
@@ -30,11 +31,13 @@ body {
     overflow: hidden;
 }
 .logo {
+    display: block;
     float: left;
     font-weight: bold;
     line-height: 46px;
 }
 .search {
+    display: block;
     float: right;
     margin: 11px 0;
 }
@@ -64,17 +67,18 @@ body {
 
 /* галерея */
 .gallery {
-    margin: 10px 0;
-
-    height: 245px;
     display: block;
+    margin: 10px 0;
+    height: 245px;
 }
 .big {
+    display: block;
     float: left;
     width: 66%;
     height: 100%
 }
 .side {
+    display: block;
     float: right;
     width: 33%;
     height: 100%;
@@ -102,23 +106,24 @@ body {
     overflow: hidden;
 }
 .circle {
+    display: block;
     float: left;
     width: 16.66%;
     text-align: center;
 }
 .circle img {
+    display: block;
+
     width: 100px;
     height: 100px;
     object-fit: cover;
 
     background: white;
     border-radius: 20%;
-    display: block;
     margin: 10px auto 0;
 }
 .circle b, .circle span{
     display: block;
-
 }
 .circle button {
     background: #48ABFF;
@@ -159,41 +164,49 @@ body {
 }
 
 .c1 {
+    display: block;
     float: left;
     width: 70%;
     height: 150px;
     margin: 10px 5% 0;
 }
 .c1 .pic {
+    display: block;
     float: left;
     width: 30%;
 }
 .c1 h3 {
+    display: block;
     float: left;
     width: 15%;
     margin: 4px 2% 0;
 }
 .c1 .text {
+    display: block;
     float: right;
     width: 51%;
 }
 
 .c2 {
+    display: block;
     float: right;
     width: 70%;
     height: 150px;
     margin: 10px 5% 0;
 }
 .c2 .pic {
+    display: block;
     float: right;
     width: 30%;
 }
 .c2 h3 {
+    display: block;
     float: left;
     width: 15%;
     margin: 4px 0 0;
 }
 .c2 .text {
+    display: block;
     float: left;
     width: 51%;
     margin: 0 2%;
@@ -201,6 +214,7 @@ body {
 }
 
 .c3 {
+    display: block;
     float: left;
     width: 40%;
     margin: 10px 0 0 5%;
@@ -222,6 +236,7 @@ body {
 }
 
 .c4 {
+    display: block;
     float: right;
     width: 40%;
     margin: 10px 5% 0 0;
