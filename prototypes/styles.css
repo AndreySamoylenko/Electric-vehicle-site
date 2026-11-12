@@ -65,26 +65,28 @@ body {
 /* галерея */
 .gallery {
     margin: 10px 0;
+
+    height: 245px;
     display: block;
-    black;
 }
 .big {
     float: left;
     width: 66%;
-    height: 245px;
+    height: 100%
 }
 .side {
     float: right;
     width: 33%;
+    height: 100%;
 }
 .side div {
     overflow: hidden;
 }
 .b1, .b2 {
-    height: 120px
+    height: 49%;
 }
 .b1 {
-    margin: 0 0 5px 0;
+    margin: 0 0 2% 0;
 }
 
 .gallery img {
@@ -96,7 +98,8 @@ body {
 
 /* кружки */
 .circles {
-    margin: auto;
+    margin: 10px auto 10px ;
+    overflow: hidden;
 }
 .circle {
     float: left;
@@ -108,12 +111,14 @@ body {
     height: 100px;
     object-fit: cover;
 
+    background: white;
     border-radius: 20%;
     display: block;
     margin: 10px auto 0;
 }
 .circle b, .circle span{
     display: block;
+
 }
 .circle button {
     background: #48ABFF;
@@ -130,7 +135,7 @@ body {
     background: #f8bbd0;
     border-radius: 25px;
     padding: 10px;
-    margin: 6px 0;
+    margin: 10px 0;
 }
 .pic {
     background: #fff;
@@ -198,7 +203,7 @@ body {
 .c3 {
     float: left;
     width: 40%;
-    margin: 5px 0 0 5%;
+    margin: 10px 0 0 5%;
     height: 300px;
 }
 .c3 h3 {
@@ -219,7 +224,7 @@ body {
 .c4 {
     float: right;
     width: 40%;
-    margin: 5px 5% 0 0;
+    margin: 10px 5% 0 0;
     height: 300px;
 }
 .c4 h3 {
