@@ -1,0 +1,264 @@
+body {
+    margin: 8px;
+    background-color: #F0F0FF;
+    font: 16px Arial;
+}
+
+/* меню */
+.tabs {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.tabs li {
+    display: inline-block;
+    padding: 10px 16px;
+    height: 18px;
+}
+.tabs li.active {
+    background: #4AAAFA;
+    color: white;
+}
+
+/* шапка */
+.header {
+    display: block;
+    overflow: hidden;
+
+    background: #4AAAFA;
+    color: white;
+    padding: 0 16px;
+}
+.logo {
+    display: block;
+    float: left;
+
+    font-weight: bold;
+    padding: 13px 0;
+}
+.search {
+    display: block;
+    float: right;
+
+    margin: 11px 0;
+}
+.search input {
+    width: 170px;
+    height: 18px;
+
+    font-size: 12px;
+}
+.search button {
+    background: #1A66DB;
+    color: white;
+
+    border-width: 0;
+    border-radius: 3px;
+
+    height: 20px;
+
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* обёртка */
+.wrap {
+    width: 90%;
+    margin: 10px auto 100px;
+}
+
+/* галерея */
+.gallery {
+    margin: 10px 0;
+    height: 245px;
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.big {
+    display: block;
+    float: left;
+    width: 66%;
+    height: 100%
+}
+.side {
+    display: block;
+    float: right;
+    width: 33%;
+    height: 100%;
+}
+.b1, .b2 {
+    overflow: hidden;
+    height: 49%;
+}
+.b1 {
+    margin: 0 0 2% 0;
+}
+
+
+
+/* кружки */
+.circles {
+    margin: 10px auto 10px ;
+    overflow: hidden;
+}
+.circle {
+    display: block;
+    float: left;
+    width: 16.66%;
+    text-align: center;
+}
+.circle img {
+    display: block;
+
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+    background: white;
+    border-radius: 20%;
+    margin: 10px auto 0;
+}
+.circle b, .circle span{
+    display: block;
+}
+.circle button {
+    background: #48ABFF;
+    color: white;
+    border: 2px solid #111111;
+    border-radius: 4px;
+    font: 12px Arial;
+    padding: 1px 6px;
+    margin: 1px;
+}
+
+/* карточки */
+.card {
+    background: #f8bbd0;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.pic {
+    background: #fff;
+    border-radius: 15px;
+    height: 150px;
+}
+.pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.card h3 {
+    margin: 0px;
+    font-size: 16px;
+}
+.article{
+    text-align: left;
+    height: 130px;
+    overflow: hidden;
+}
+
+.c1 {
+    display: block;
+    float: left;
+    width: 70%;
+    height: 150px;
+    margin: 10px 5% 0;
+}
+.c1 .pic {
+    display: block;
+    float: left;
+    width: 30%;
+}
+.c1 h3 {
+    display: block;
+    float: left;
+    width: 15%;
+    margin: 4px 2% 0;
+}
+.c1 .text {
+    display: block;
+    float: right;
+    width: 51%;
+}
+
+.c2 {
+    display: block;
+    float: right;
+    width: 70%;
+    height: 150px;
+    margin: 10px 5% 0;
+}
+.c2 .pic {
+    display: block;
+    float: right;
+    width: 30%;
+}
+.c2 h3 {
+    display: block;
+    float: left;
+    width: 15%;
+    margin: 4px 0 0;
+}
+.c2 .text {
+    display: block;
+    float: left;
+    width: 51%;
+    margin: 0 2%;
+    text-align: right;
+}
+
+.c3 {
+    display: block;
+    float: left;
+    width: 40%;
+    margin: 10px 0 0 5%;
+    height: 300px;
+}
+.c3 h3 {
+    text-align: center;
+    margin: 4px 0 0;
+}
+.c3 .text {
+    margin: 8px 5px;
+}
+.c3 .article {
+    height: 90px;
+}
+.c3 .more {
+    text-align: right;
+    margin: 8px 5px;
+}
+
+.c4 {
+    display: block;
+    float: right;
+    width: 40%;
+    margin: 10px 5% 0 0;
+    height: 300px;
+}
+.c4 h3 {
+    text-align: center;
+    margin: 4px 0 0;
+}
+.c4 .text {
+    margin: 8px 5px;
+}
+.c4 .article {
+    height: 90px;
+}
+.c4 .more {
+    text-align: left;
+    margin: 8px 5px;
+}
+
+.spacer {
+    clear: both;
+    height: 100px
+}
